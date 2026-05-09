@@ -513,33 +513,62 @@ address { font-style: normal; }
    ============================================================ */
 .worries__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
   margin-bottom: 56px;
 }
 
 .worries__item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  gap: 12px;
-  padding: 28px 20px;
-  background: var(--c-beige-50);
+  gap: 20px;
+  padding: 22px 24px;
+  background: var(--c-white);
   border-radius: var(--radius-lg);
   border: 1px solid var(--c-border);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  transition: transform var(--transition), box-shadow var(--transition);
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--c-text);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
 
 .worries__item:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-md);
+  border-color: var(--c-beige-300);
 }
 
-.worries__icon {
-  font-size: 2rem;
+.worries__item strong {
+  font-weight: 600;
+  color: var(--c-sage-800);
+}
+
+.worries__icon-wrap {
+  width: 54px;
+  height: 54px;
+  min-width: 54px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, var(--c-beige-100) 0%, var(--c-sage-50) 100%);
+  border: 1px solid var(--c-beige-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.worries__icon-wrap svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--c-sage-600);
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.worries__text {
+  flex: 1;
 }
 
 .worries__answer {
@@ -1425,7 +1454,8 @@ address { font-style: normal; }
   }
 
   .worries__list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .owner__inner {
@@ -1509,8 +1539,9 @@ address { font-style: normal; }
     justify-content: center;
   }
 
-  .worries__list {
-    grid-template-columns: 1fr;
+  .worries__item {
+    gap: 16px;
+    padding: 18px 20px;
   }
 
   .worries__answer {
