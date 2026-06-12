@@ -7,29 +7,44 @@
   <!-- ============================================================
        SEO: Title & Description（エリナ仕様）
        ============================================================ -->
-  <title>整体サロン Sprout（スプラウト）| 太田市の理学療法士による整体・ドライヘッド | 肩こり・腰痛・産後ケア</title>
-  <meta name="description" content="群馬県太田市の整体サロンSprout。元理学療法士が肩こり・腰痛・頭痛・産後の不調を根本から整えます。完全プライベート空間で女性も安心。完全予約制。初回¥1,000オフ。">
+  <title>太田市の整体サロン Sprout（スプラウト）｜理学療法士による整体・ドライヘッド</title>
+  <meta name="description" content="群馬県太田市の整体サロンSprout。理学療法士歴18年の院長が肩こり・腰痛・頭痛・産後の不調を根本から整えます。完全予約制・完全個室で女性も安心。無料駐車場あり。新規限定価格80分¥5,800。">
   <link rel="canonical" href="https://seitai-sprout.com/">
 
   <!-- OGP -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="整体サロン Sprout | 太田市の理学療法士による整体">
-  <meta property="og:description" content="元理学療法士が肩こり・腰痛・産後の不調を根本から整えます。群馬県太田市、完全プライベート空間。">
+  <meta property="og:title" content="太田市の整体サロン Sprout｜理学療法士による整体・ドライヘッド">
+  <meta property="og:description" content="理学療法士歴18年の院長が肩こり・腰痛・産後の不調を根本から整えます。群馬県太田市、完全予約制・完全個室。">
   <meta property="og:url" content="https://seitai-sprout.com/">
   <meta property="og:image" content="https://seitai-sprout.com/images/ogp.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="整体サロン Sprout">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="太田市の整体サロン Sprout｜理学療法士による整体・ドライヘッド">
+  <meta name="twitter:description" content="理学療法士歴18年の院長が肩こり・腰痛・産後の不調を根本から整えます。完全予約制・完全個室。">
 
-  <!-- Schema.org 構造化データ -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+
+  <!-- LCP対策: ヒーロー画像を最優先で読み込む -->
+  <link rel="preload" as="image" href="images/hero.jpg" fetchpriority="high">
+
+  <!-- Schema.org 構造化データ: ローカルビジネス -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
+    "@id": "https://seitai-sprout.com/#salon",
     "name": "整体サロン Sprout（スプラウト）",
-    "description": "元理学療法士が肩こり・腰痛・産後の不調を根本から整える整体サロン",
-    "url": "https://seitai-sprout.com",
-    "telephone": "080-1571-6221",
+    "alternateName": "sprout",
+    "description": "理学療法士歴18年の院長が肩こり・腰痛・頭痛・産後の不調を根本から整える、群馬県太田市の完全予約制プライベート整体サロン",
+    "url": "https://seitai-sprout.com/",
+    "telephone": "+81-80-1571-6221",
+    "image": "https://seitai-sprout.com/images/ogp.jpg",
+    "logo": "https://seitai-sprout.com/images/logo.png",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "浜町63-37",
@@ -38,6 +53,27 @@
       "postalCode": "373-0827",
       "addressCountry": "JP"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.289674,
+      "longitude": 139.3644225
+    },
+    "hasMap": "https://maps.google.com/?q=36.289674,139.3644225",
+    "areaServed": {
+      "@type": "City",
+      "name": "太田市"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "井上 拓海",
+      "jobTitle": "理学療法士",
+      "url": "https://seitai-sprout.com/about/"
+    },
+    "sameAs": [
+      "http://b.hpr.jp/kr/hp/H000652698",
+      "https://lin.ee/uu1mPwV",
+      "https://blog.seitai-sprout.com/"
+    ],
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -52,7 +88,90 @@
         "closes": "21:00"
       }
     ],
-    "priceRange": "¥5,500〜¥9,000"
+    "priceRange": "¥5,500〜¥9,000",
+    "currenciesAccepted": "JPY",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "施術メニュー",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Standard 全身整体60分（ドライヘッド込み）",
+          "price": "5500",
+          "priceCurrency": "JPY"
+        },
+        {
+          "@type": "Offer",
+          "name": "Long 全身整体80分（ドライヘッド込み）",
+          "price": "7500",
+          "priceCurrency": "JPY"
+        },
+        {
+          "@type": "Offer",
+          "name": "Extra 全身整体100分（ドライヘッド込み）",
+          "price": "9000",
+          "priceCurrency": "JPY"
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Schema.org 構造化データ: FAQ（ページ内FAQセクションと完全一致） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "整体がはじめてで不安です。どんな服装で行けばいいですか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "動きやすい服装であればそのままで大丈夫です。お仕事帰りなどの場合は、お着替えも無料でご用意していますのでご安心ください。施術前のカウンセリングで分からないことは何でもお聞きいただけます。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "駐車場はありますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "はい、無料駐車場がございます。お車でそのままお越しください。太田市内はもちろん、近隣の市町村からもお越しいただいています。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "当日予約はできますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "空きがあれば当日のご予約も可能です。LINEまたはお電話でご希望の時間をお知らせください。完全予約制のため、確実にご希望の時間を押さえたい場合はお早めのご連絡がおすすめです。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "施術は痛くないですか？強揉みが苦手です。",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "強い力でグイグイ押す施術ではありません。理学療法士の知識をもとに、強すぎず心地よい圧で全身を整えます。力加減はいつでも遠慮なくお伝えください。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "女性ひとりでも安心して通えますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "はい。完全予約制・完全個室のため、他のお客様と顔を合わせることはありません。実際にお客様の多くは女性で、30代から60代まで幅広い世代の方に通っていただいています。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "どのくらいのペースで通えばいいですか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "お体の状態によって異なるため、施術後にあなたに合ったペースをご提案します。無理に通院を勧めることはありません。"
+        }
+      }
+    ]
   }
   </script>
 
@@ -70,7 +189,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css?v=5">
+  <link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
 
@@ -233,7 +352,7 @@
           <div class="owner__photo reveal">
             <!-- 院長の顔写真を以下の div に background-image として設定してください -->
             <!-- 例: style="background-image: url('images/owner.jpg')" -->
-            <img src="images/owner_headshot1.jpg" alt="整体サロン Sprout 院長 井上拓海" class="owner__real-photo">
+            <img src="images/owner_headshot1.jpg" alt="太田市の整体サロン Sprout 院長・理学療法士 井上拓海" class="owner__real-photo" loading="lazy" decoding="async">
             <div class="owner__badge">
               <span>理学療法士</span>
             </div>
@@ -296,6 +415,30 @@
             <strong>痛みを生まない、しなやかなからだを一緒に育てること</strong>が、<br>
             Sproutのコンセプトです。
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SPACE（プライベート空間ギャラリー）
+         ============================================================ -->
+    <section class="space section" id="space">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label">Private Space</span>
+          <h2 class="section-title">心がほどける、<br class="sp-only">プライベート空間</h2>
+          <p class="section-sub">完全予約制・完全個室。ここにあるのは、あなただけの時間です</p>
+        </div>
+        <div class="space__grid">
+          <figure class="space__item space__item--main reveal">
+            <img src="images/room.jpg" alt="整体サロンSprout（群馬県太田市）の落ち着いた完全個室の施術ルーム" loading="lazy" decoding="async">
+          </figure>
+          <figure class="space__item reveal">
+            <img src="images/counseling.jpg" alt="太田市の整体サロンSproutで行う丁寧なカウンセリングの様子" loading="lazy" decoding="async">
+          </figure>
+          <figure class="space__item reveal">
+            <img src="images/treatment.jpg" alt="理学療法士による全身整体の施術風景" loading="lazy" decoding="async">
+          </figure>
         </div>
       </div>
     </section>
@@ -664,6 +807,75 @@
     </section>
 
     <!-- ============================================================
+         FAQ（よくあるご質問）
+         ============================================================ -->
+    <section class="faq section section--cream" id="faq">
+      <div class="container container--narrow">
+        <div class="section-head reveal">
+          <span class="section-label">FAQ</span>
+          <h2 class="section-title">よくあるご質問</h2>
+          <p class="section-sub">はじめての方からよくいただくご質問にお答えします</p>
+        </div>
+        <div class="faq__list">
+          <details class="faq__item reveal">
+            <summary class="faq__q">
+              <span>整体がはじめてで不安です。どんな服装で行けばいいですか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__a">
+              <p>動きやすい服装であればそのままで大丈夫です。お仕事帰りなどの場合は、お着替えも無料でご用意していますのでご安心ください。施術前のカウンセリングで分からないことは何でもお聞きいただけます。</p>
+            </div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">
+              <span>駐車場はありますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__a">
+              <p>はい、無料駐車場がございます。お車でそのままお越しください。太田市内はもちろん、近隣の市町村からもお越しいただいています。</p>
+            </div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">
+              <span>当日予約はできますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__a">
+              <p>空きがあれば当日のご予約も可能です。LINEまたはお電話でご希望の時間をお知らせください。完全予約制のため、確実にご希望の時間を押さえたい場合はお早めのご連絡がおすすめです。</p>
+            </div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">
+              <span>施術は痛くないですか？強揉みが苦手です。</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__a">
+              <p>強い力でグイグイ押す施術ではありません。理学療法士の知識をもとに、強すぎず心地よい圧で全身を整えます。「いつの間にか眠ってしまった」というお声を多くいただいています。力加減はいつでも遠慮なくお伝えください。</p>
+            </div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">
+              <span>女性ひとりでも安心して通えますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__a">
+              <p>はい。完全予約制・完全個室のため、他のお客様と顔を合わせることはありません。実際にお客様の多くは女性で、30代から60代まで幅広い世代の方に通っていただいています。</p>
+            </div>
+          </details>
+          <details class="faq__item reveal">
+            <summary class="faq__q">
+              <span>どのくらいのペースで通えばいいですか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq__a">
+              <p>お体の状態によって異なるため、施術後にあなたに合ったペースをご提案します。無理に通院を勧めることはありません。「次はいつ来るといいか」を毎回一緒に考えていきましょう。</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
          RESERVE（最終CTA）
          ============================================================ -->
     <section class="reserve section section--dark" id="reserve">
@@ -722,6 +934,7 @@
             <li><a href="#voice">お客様の声</a></li>
             <li><a href="#menu">メニュー・料金</a></li>
             <li><a href="#flow">来院の流れ</a></li>
+            <li><a href="#faq">よくあるご質問</a></li>
             <li><a href="#access">アクセス</a></li>
             <li><a href="#blog">ブログ</a></li>
           </ul>

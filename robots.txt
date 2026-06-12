@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seitai-sprout.com/sitemap.xml
